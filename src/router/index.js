@@ -55,6 +55,12 @@ export const constantRouterMap = [
         name: 'Tree',
         component: () => import('@/views/tree/index'),
         meta: { title: 'Tree', icon: 'tree' }
+      },
+      {
+        path: 'wechatUser',
+        name: 'Users',
+        component: () => import('@/views/wechatUser/index'),
+        meta: { title: '啦啦啦', icon: 'table' }
       }
     ]
   },
